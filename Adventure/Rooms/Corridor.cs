@@ -8,8 +8,8 @@ namespace Adventure.Rooms
 {
     public class Corridor : BaseRoom
     {
-        public override string Name => "Corridor";
+        public override string Name => "Tunel";
 
-        public override string Description => "dark and empty corridor";
+        public override string Description => "že sem už se světlo nedostane, nevidíš vůbec nic";
     }
 }

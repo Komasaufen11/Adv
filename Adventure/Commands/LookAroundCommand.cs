@@ -11,7 +11,7 @@ namespace Adventure.Commands
     {
         public override void Execute(World world, params string[] @params)
         {
-            Console.WriteLine($"You looked around and see a {world.CurrentRoom.Description}");
+            Console.WriteLine($"Rozhlédl jsi se a vidíš {world.CurrentRoom.Description}");
         }
     }
 }

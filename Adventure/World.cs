@@ -25,9 +25,7 @@ namespace Adventure
             CurrentRoom = rooms[0];
         }
 
-        public string Intro { get; } = @"
-How did you end up here? You don't really know. Maybe you fell, maybe someone pushed you.
-One thing is certain, you need to GET OUT OF HERE!
+        public string Intro { get; } = $@"Procházíš se po noční Vlašimi a přepadla tě chuť na cígo, jdeš si přípálit, ale rozklepané ruce upustí zapalovač do kanálu. """"Kurva"""" Použiješ opileckou sílu k zvednutí poklopu a bezmeš si ho s sebou do hlubin. 
 ";
     }
 }
