@@ -25,7 +25,7 @@ namespace Adventure
             CurrentRoom = rooms[0];
         }
 
-        public string Intro { get; } = $@"Procházíš se po noční Vlašimi a přepadla tě chuť na cígo, jdeš si přípálit, ale rozklepané ruce upustí zapalovač do kanálu. """"Kurva"""" Použiješ opileckou sílu k zvednutí poklopu a bezmeš si ho s sebou do hlubin. 
+        public string Intro { get; } = $@"Procházíš se po noční Vlašimi a přepadla tě chuť na cígo, jdeš si přípálit, ale rozklepané ruce upustí zapalovač do kanálu. """"Kurva"""" Použiješ opileckou sílu k zvednutí poklopu a vrhneš se do hlubin. 
 ";
     }
 }
