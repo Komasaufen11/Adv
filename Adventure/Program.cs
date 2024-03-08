@@ -32,9 +32,10 @@ namespace Adventure
 
         private static Dictionary<string, BaseCommand> RegisterCommands() => new Dictionary<string, BaseCommand>()
         {
-            { "look", new LookAroundCommand() },
+            { "Rozhlídnout", new LookAroundCommand() },
 
-            { "help", new HelpCommand() }
+            { "help", new HelpCommand() },
+            { "Prozkoumat", new InfoCommand() },
         };
     }
 }

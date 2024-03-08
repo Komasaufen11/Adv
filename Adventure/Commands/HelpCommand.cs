@@ -10,13 +10,13 @@ namespace Adventure.Commands
     {
         public override void Execute(World world, params string[] @params)
         {
-            Console.WriteLine("To interact with the game, use following commands ...");
+            Console.WriteLine("Příkazy pro blbečky ...");
             Console.WriteLine("---");
-            Console.WriteLine("look - looks around the room");
+            Console.WriteLine("Rozhlídnout - co myslíš");
 
             Console.WriteLine();
-            Console.WriteLine("help - shows this help");
-            Console.WriteLine("quit - exits the game");
+            Console.WriteLine("help - hňupe");
+            Console.WriteLine("quit - srabe");
         }
     }
 }
